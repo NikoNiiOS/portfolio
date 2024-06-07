@@ -15,7 +15,7 @@
     </nav>
 </template>
 
-<style scoped>
+<style>
 nav, .nav-links {
   display: flex;
 }
