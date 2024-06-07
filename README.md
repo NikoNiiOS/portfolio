@@ -19,6 +19,7 @@ npm install
 ### Compile and Hot-Reload for Development
 
 ```sh
+cd .\vue-portfolio\
 npm run dev
 ```
 
