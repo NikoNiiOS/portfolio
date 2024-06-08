@@ -57,7 +57,6 @@ function menuHandler() {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: white;
     width: fit-content;
     max-height: 0;
     overflow: hidden;

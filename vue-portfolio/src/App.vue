@@ -2,11 +2,17 @@
 import { RouterLink, RouterView } from 'vue-router'
 import DesktopNav from './components/DesktopNavigation.vue'
 import MobileNav from './components/MobileNavigation.vue'
+import Profile from './components/ProfileSection.vue'
 </script>
 
 <template>
-  <DesktopNav />
-  <MobileNav />
+  <header>
+    <DesktopNav />
+    <MobileNav />
+  </header>
+  <main>
+    <Profile />
+  </main>
 </template>
 
 <style scoped>
