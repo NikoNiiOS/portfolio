@@ -1,4 +1,5 @@
-<script>
+<script setup>
+import Exp from './icons/IconExperience.vue'
 </script>
 
 <template>
@@ -43,12 +44,7 @@
                 </div>
             </div>
         </div>
-        <img 
-        src="../assets/img/arrow_down.png" 
-        alt="Arrow pointing down icon" 
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-        />
+        <Exp />
     </section>
 </template>
 
@@ -70,6 +66,7 @@
 
 .about-containers, .about-details-container {
     display: flex;
+    width: 100%;
 }
 
 .about-pic{
@@ -90,6 +87,10 @@
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+}
+
+.details-container .icon{
+    cursor: default;
 }
 
 .section__pic-container{

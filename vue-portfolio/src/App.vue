@@ -4,6 +4,7 @@ import DesktopNav from './components/DesktopNavigation.vue'
 import MobileNav from './components/MobileNavigation.vue'
 import Profile from './components/ProfileSection.vue'
 import About from './components/AboutSection.vue'
+import Experience from './components/ExperienceSection.vue'
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import About from './components/AboutSection.vue'
   <main>
     <Profile />
     <About />
+    <Experience />
   </main>
 </template>
 
