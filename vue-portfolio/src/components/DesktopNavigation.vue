@@ -35,7 +35,7 @@ nav {
 a {
   color: #1e252e;
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: #1e252e;
 }
 
 a:hover{
