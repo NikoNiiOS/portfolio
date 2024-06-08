@@ -3,6 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import DesktopNav from './components/DesktopNavigation.vue'
 import MobileNav from './components/MobileNavigation.vue'
 import Profile from './components/ProfileSection.vue'
+import About from './components/AboutSection.vue'
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import Profile from './components/ProfileSection.vue'
   </header>
   <main>
     <Profile />
+    <About />
   </main>
 </template>
 
