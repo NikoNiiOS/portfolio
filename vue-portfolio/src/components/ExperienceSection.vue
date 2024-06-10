@@ -129,8 +129,8 @@ import Pro from './icons/IconProjects.vue'
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2rem;
-    justify-content: start;
+    gap: 2.5rem;
+    justify-content: space-around;
 }
 
 article {

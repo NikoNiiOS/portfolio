@@ -99,8 +99,4 @@ import Contact from './icons/IconContact.vue'
     color: black;
     border-color: rgb(163, 163, 163);
 }
-
-.project-btn:hover {
-    text-decoration: none;
-}
 </style>

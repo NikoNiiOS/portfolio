@@ -6,6 +6,7 @@ import Profile from './components/ProfileSection.vue'
 import About from './components/AboutSection.vue'
 import Experience from './components/ExperienceSection.vue'
 import Project from './components/ProjectSection.vue'
+import Contact from './components/ContactSection.vue'
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import Project from './components/ProjectSection.vue'
     <About />
     <Experience />
     <Project />
+    <Contact />
   </main>
 </template>
 

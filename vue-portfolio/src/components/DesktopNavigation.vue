@@ -36,9 +36,9 @@ nav {
 }
 
 a {
-  color: #1e252e;
+  color: black;
   text-decoration: none;
-  text-decoration-color: #1e252e;
+  text-decoration-color: black;
 }
 
 a:hover{
