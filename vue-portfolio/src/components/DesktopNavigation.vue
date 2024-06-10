@@ -3,7 +3,9 @@
 
 <template>
     <nav id="desktop-nav">
-        <div class="logo">Ornata</div>
+        <div class="logo">
+          <a href="#top" class="logo">Ornata</a>
+        </div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -16,6 +18,7 @@
 </template>
 
 <style>
+
 nav, .nav-links {
   display: flex;
 }
@@ -51,6 +54,7 @@ a:hover{
 }
 
 .logo:hover{
-  cursor: default;
+  color: orange;
+  text-decoration: none;
 }
 </style>

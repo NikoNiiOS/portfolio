@@ -130,7 +130,7 @@ import Pro from './icons/IconProjects.vue'
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2rem;
-    justify-content: space-around;
+    justify-content: start;
 }
 
 article {

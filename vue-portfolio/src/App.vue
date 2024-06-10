@@ -5,6 +5,7 @@ import MobileNav from './components/MobileNavigation.vue'
 import Profile from './components/ProfileSection.vue'
 import About from './components/AboutSection.vue'
 import Experience from './components/ExperienceSection.vue'
+import Project from './components/ProjectSection.vue'
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import Experience from './components/ExperienceSection.vue'
     <Profile />
     <About />
     <Experience />
+    <Project />
   </main>
 </template>
 

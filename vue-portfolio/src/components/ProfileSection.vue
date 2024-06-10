@@ -56,6 +56,7 @@
     justify-content: center;
     gap: 8rem;
     height: 80vh;
+    padding: 14vh;
     width: auto;
 }
 
