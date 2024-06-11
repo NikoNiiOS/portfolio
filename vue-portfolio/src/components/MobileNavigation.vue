@@ -26,7 +26,7 @@ function menuHandler() {
     </nav>
 </template>
 
-<style scoped>
+<style>
 
 #hamburger-nav {
     display: none;

@@ -4,7 +4,7 @@
 
 <template>
 <section id="profile">
-    <div class="section__pic_container">
+    <div class="section__pic-container">
         <img src="../assets/img/profile_logo.png" alt="Ornata profile picture">
     </div>
     <div class="section__text">
@@ -60,7 +60,7 @@
     width: auto;
 }
 
-.section__pic_container {
+.section__pic-container {
     display: flex;
     height: 400px;
     width: 400px;
