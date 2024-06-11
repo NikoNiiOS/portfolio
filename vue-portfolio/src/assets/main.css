@@ -5,8 +5,8 @@ header{
     position: sticky;
     top: 0px;
     z-index: 1;
-    background-image: linear-gradient(60deg, #e3eaff 0%, #eeffcf 100%);
-    background-size: 300% 300%;
+    background-image: linear-gradient(60deg, #f6f9ff 0%, #c8deff 100%);
+    background-size: 400% 400%;
     border-bottom: 1px solid;
     border-color: black;
     box-shadow: 0px 5px 1.5rem black;
@@ -15,9 +15,20 @@ header{
 
 /* MAIN */
 main {
-    background: linear-gradient(90deg, #e3eaff 0%, #eeffcf 100%);
+    background: linear-gradient(90deg, #f6f9ff 0%, #c8deff 100%);
     background-size: 400% 400%;
-    animation: mainBackgroundGradient 3s infinite linear;
+    animation: mainBackgroundGradient 6s infinite linear;
+}
+
+
+/* FOOTER */
+footer {
+    background: linear-gradient(-60deg, #f6f9ff 0%, #c8deff 100%);
+    background-size: 300% 300%;
+    border-top: 1px solid;
+    border-color: black;
+    box-shadow: 0px -5px 1.5rem black;
+    animation: footerBackgroundGradient 6s infinite linear;
 }
 
 /* SECTIONS */
@@ -37,7 +48,6 @@ section {
 
 
 /* ANIMATIONS */
-
 @keyframes headerBackgroundGradient{
     0%{
         background-position: 0% 85%;
@@ -59,5 +69,17 @@ section {
     }
     100%{
         background-position: 80% 0%;
+    }
+}
+
+@keyframes footerBackgroundGradient{
+    0%{
+        background-position: 0% 85%;
+    }
+    50%{
+        background-position: 100% 20%;
+    }
+    100%{
+        background-position: 0% 85%;
     }
 }
