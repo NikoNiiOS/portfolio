@@ -7,6 +7,7 @@ import About from './components/AboutSection.vue'
 import Experience from './components/ExperienceSection.vue'
 import Project from './components/ProjectSection.vue'
 import Contact from './components/ContactSection.vue'
+import TheFooter from './components/TheFooter.vue'
 </script>
 
 <template>
@@ -21,6 +22,9 @@ import Contact from './components/ContactSection.vue'
     <Project />
     <Contact />
   </main>
+  <footer>
+    <TheFooter />
+  </footer>
 </template>
 
 <style scoped>

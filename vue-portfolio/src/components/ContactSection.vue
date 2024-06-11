@@ -24,7 +24,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 100vh;
 }
 
 .contact-info-upper-container {
