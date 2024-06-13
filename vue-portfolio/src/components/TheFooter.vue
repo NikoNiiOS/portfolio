@@ -39,8 +39,8 @@
         </nav>
     </div>
     <div class="footer-infos">
-        <p>Copyright &#169; 2024 Nicolas Lamour.</p>
-        <p>Last update: 2024-06-11</p>
+        <p>Copyright &#169; 2024 Nicolas Lamour</p>
+        <p>Last update: 2024-06-13</p>
     </div>
 </section>
 </template>

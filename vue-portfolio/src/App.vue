@@ -11,6 +11,7 @@ import TheFooter from './components/TheFooter.vue'
 </script>
 
 <template>
+  <div id="modal"></div>
   <header>
     <DesktopNav />
     <MobileNav />
@@ -74,6 +75,12 @@ import TheFooter from './components/TheFooter.vue'
 
   .about-containers {
     margin-top: 0;
+  }
+
+  .hamburger-links {
+    background-image: linear-gradient(60deg, #f6f9ff 0%, #c8deff 100%);
+    background-size: 400% 400%;
+    animation: headerBackgroundGradient 6s infinite linear;
   }
 }
 
