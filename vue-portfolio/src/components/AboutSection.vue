@@ -18,7 +18,9 @@ import Exp from './icons/IconExperience.vue'
                 <div class="about-containers">
                     <div class="details-container">
                         <img 
-                        src="../assets/img/exp.png" 
+                        src="../assets/img/exp.png"
+                        src-light="/src/assets/img/exp.png"
+                        src-dark="/src/assets/img/exp_dark.png"
                         alt="experience icon"
                         class="icon"
                         />
@@ -28,6 +30,8 @@ import Exp from './icons/IconExperience.vue'
                     <div class="details-container">
                         <img 
                         src="../assets/img/education.png" 
+                        src-light="/src/assets/img/education.png"
+                        src-dark="/src/assets/img/education_dark.png"
                         alt="experience icon"
                         class="icon"
                         />
@@ -82,10 +86,10 @@ import Exp from './icons/IconExperience.vue'
 .details-container{
     padding: 1.5rem;
     flex: 1;
-    background: white;
+    background: var(--primary-color-2);
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
+    border: var(--btn-border);
+    border-color: var(--container-border);
     text-align: center;
 }
 
@@ -98,6 +102,6 @@ import Exp from './icons/IconExperience.vue'
     height: 400px;
     width: 400px;
     margin: auto 2rem;
-    filter: drop-shadow(5px 5px 0.5rem black); 
+    filter: var(--filter-shadow); 
 }
 </style>

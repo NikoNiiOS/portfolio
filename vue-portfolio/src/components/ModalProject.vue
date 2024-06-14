@@ -36,7 +36,7 @@ defineProps({
                     </div>
                     <div class="modal-text-container">
                         <h2>Techs used</h2>
-                        <div>{{ techs }}</div>
+                        <div class="div-text">{{ techs }}</div>
                     </div>
                     <button class="btn btn-color-2 modal-btn-2" onclick="window.open()">More Infos</button>
                 </div>
@@ -63,7 +63,7 @@ defineProps({
 
 .modal {
     position: relative;
-    background: white;
+    background: var(--primary-color-2);
     padding: 75px 75px;
     height: 25vh;
     width: 25vh;
@@ -73,7 +73,7 @@ defineProps({
     align-items: center;
     gap: 3rem;
     border-radius: 1rem;
-    box-shadow: 0px 10px 5px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: var(--box-shadow);
 }
 
 .modal-btn {
@@ -104,5 +104,9 @@ defineProps({
 
 .modal-btn-2 {
     padding: 10px;
+}
+
+.div-text {
+    color: var(--secondary-color-2);
 }
 </style>

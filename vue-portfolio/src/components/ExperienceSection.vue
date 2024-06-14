@@ -13,7 +13,9 @@ import Pro from './icons/IconProjects.vue'
                     <div class="article-container">
                         <article>
                             <img 
-                            src="../assets/img/checkmark.png" 
+                            src="../assets/img/checkmark.png"
+                            src-light="/src/assets/img/checkmark.png"
+                            src-dark="/src/assets/img/checkmark_dark.png"
                             alt="Experience icon"
                             class="icon"
                             />
@@ -24,7 +26,9 @@ import Pro from './icons/IconProjects.vue'
                         </article>
                         <article>
                             <img 
-                            src="../assets/img/checkmark.png" 
+                            src="../assets/img/checkmark.png"
+                            src-light="/src/assets/img/checkmark.png"
+                            src-dark="/src/assets/img/checkmark_dark.png"
                             alt="Experience icon"
                             class="icon"
                             />
@@ -36,6 +40,8 @@ import Pro from './icons/IconProjects.vue'
                         <article>
                             <img 
                             src="../assets/img/checkmark.png" 
+                            src-light="/src/assets/img/checkmark.png"
+                            src-dark="/src/assets/img/checkmark_dark.png"
                             alt="Experience icon"
                             class="icon"
                             />
@@ -52,6 +58,8 @@ import Pro from './icons/IconProjects.vue'
                         <article>
                             <img 
                             src="../assets/img/checkmark.png" 
+                            src-light="/src/assets/img/checkmark.png"
+                            src-dark="/src/assets/img/checkmark_dark.png"
                             alt="Experience icon"
                             class="icon"
                             />
@@ -67,7 +75,9 @@ import Pro from './icons/IconProjects.vue'
                     <div class="article-container">
                         <article>
                             <img 
-                            src="../assets/img/checkmark.png" 
+                            src="../assets/img/checkmark.png"
+                            src-light="/src/assets/img/checkmark.png"
+                            src-dark="/src/assets/img/checkmark_dark.png" 
                             alt="Experience icon"
                             class="icon"
                             />
@@ -78,7 +88,9 @@ import Pro from './icons/IconProjects.vue'
                         </article>
                         <article>
                             <img 
-                            src="../assets/img/checkmark.png" 
+                            src="../assets/img/checkmark.png"
+                            src-light="/src/assets/img/checkmark.png"
+                            src-dark="/src/assets/img/checkmark_dark.png" 
                             alt="Experience icon"
                             class="icon"
                             />
@@ -89,7 +101,9 @@ import Pro from './icons/IconProjects.vue'
                         </article>
                         <article>
                             <img 
-                            src="../assets/img/checkmark.png" 
+                            src="../assets/img/checkmark.png"
+                            src-light="/src/assets/img/checkmark.png"
+                            src-dark="/src/assets/img/checkmark_dark.png" 
                             alt="Experience icon"
                             class="icon"
                             />
@@ -112,7 +126,7 @@ import Pro from './icons/IconProjects.vue'
 }
 
 .experience-sub-title {
-    color: rgb(85, 85, 85);
+    color: var(--secondary-color);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
