@@ -152,6 +152,7 @@ import TheFooter from './components/TheFooter.vue'
 
   .text-container {
     text-align: justify;
+    color: var(--secondary-color);
   }
 
   .hamburger-links {

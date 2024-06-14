@@ -100,4 +100,8 @@ import Exp from './icons/IconExperience.vue'
     margin: auto 2rem;
     filter: drop-shadow(5px 5px 0.5rem black); 
 }
+
+.text-container {
+    color: var(--secondary-color-2);
+}
 </style>
