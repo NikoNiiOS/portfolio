@@ -5,7 +5,7 @@ header{
     position: sticky;
     top: 0px;
     z-index: 1;
-    background-image: linear-gradient(60deg, #f6f9ff 0%, #c8deff 100%);
+    background-image: var(--hdr-bg-gradient-color);
     background-size: 400% 400%;
     border-bottom: 1px solid;
     border-color: black;
@@ -15,7 +15,7 @@ header{
 
 /* MAIN */
 main {
-    background: linear-gradient(90deg, #f6f9ff 0%, #c8deff 100%);
+    background: var(--mn-bg-gradient-color);
     background-size: 400% 400%;
     animation: mainBackgroundGradient 6s infinite linear;
 }
@@ -23,7 +23,7 @@ main {
 
 /* FOOTER */
 footer {
-    background: linear-gradient(-60deg, #f6f9ff 0%, #c8deff 100%);
+    background: var(--ftr-bg-gradient-color);
     background-size: 300% 300%;
     border-top: 1px solid;
     border-color: black;

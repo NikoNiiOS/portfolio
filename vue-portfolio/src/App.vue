@@ -30,7 +30,7 @@ import TheFooter from './components/TheFooter.vue'
 
 <style>
 /* MEDIAQUERIES */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -39,9 +39,7 @@ import TheFooter from './components/TheFooter.vue'
   .about-containers{
     flex-wrap: wrap;
   }
-}
 
-@media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
   }
@@ -58,7 +56,7 @@ import TheFooter from './components/TheFooter.vue'
     display: block;
   }
 
-  section, .section-container {
+  section, .section-container{
     height: fit-content;
   }
 
@@ -78,7 +76,7 @@ import TheFooter from './components/TheFooter.vue'
   }
 
   .hamburger-links {
-    background-image: linear-gradient(60deg, #f6f9ff 0%, #c8deff 100%);
+    background-image: var(--hdr-bg-gradient-color);
     background-size: 400% 400%;
     animation: headerBackgroundGradient 6s infinite linear;
   }
@@ -156,9 +154,17 @@ import TheFooter from './components/TheFooter.vue'
   }
 
   .hamburger-links {
-    background-image: linear-gradient(60deg, #f6f9ff 0%, #c8deff 100%);
+    background-image: var(--hdr-bg-gradient-color);
     background-size: 400% 400%;
     animation: headerBackgroundGradient 6s infinite linear;
+  }
+
+  .modal {
+    padding: 0;
+    width: 80%;
+    height: 60%;
+    gap: 1.5rem;
+    justify-content: center;
   }
 }
 </style>

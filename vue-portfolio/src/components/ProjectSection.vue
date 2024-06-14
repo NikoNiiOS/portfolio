@@ -78,12 +78,12 @@ import Contact from './icons/IconContact.vue'
 }
 
 .color-container {
-    border-color: rgb(163, 163, 163);
-    background: white;
+    border-color: var(--container-border);
+    background: var(--primary-color-2);
 }
 
 .projects-container:hover{
-    filter: drop-shadow(5px 5px 0.5rem black);
+    filter: var(--project-filter);
     transition: all 500ms ease;
 }
 
@@ -99,11 +99,11 @@ import Contact from './icons/IconContact.vue'
 
 .project-title {
     margin: 1rem;
-    color: black;
+    color: var(--secondary-color);
 }
 
 .project-btn {
-    color: black;
-    border-color: rgb(163, 163, 163);
+    color: var(--secondary-color);
+    border-color: var(--container-border);
 }
 </style>
