@@ -1,4 +1,5 @@
-<script>
+<script setup>
+
 </script>
 
 <template>
@@ -12,6 +13,16 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li>
+                  <img
+                  id="modeToggle"
+                  class="icon color-icon"
+                  src="../assets/img/light_theme.png" 
+                  src-light="/src/assets/img/light_theme.png"
+                  src-dark="/src/assets/img/dark_theme.png"
+                  alt="Color theme icon"
+                  >
+                </li>
             </ul>
         </div>
     </nav>
@@ -21,11 +32,11 @@
 
 nav, .nav-links {
   display: flex;
+  align-items: center;
 }
 
 nav {
   justify-content: space-around;
-  align-items: center;
   height: 15vh;
 }
 
@@ -36,20 +47,24 @@ nav {
 }
 
 a {
-  color: black;
+  color: var(--secondary-color);
   text-decoration: none;
-  text-decoration-color: black;
+  text-decoration-color: var(--secondary-color);
 }
 
 a:hover{
-  color: grey;
   text-decoration: underline;
-  text-underline-offset: 1.2rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-underline-offset: 1rem;
+  text-decoration-color: var(--secondary-color);
+}
+
+nav a:hover{
+  color: var(--secondary-color);
+  text-decoration-color: var(--secondary-color);
 }
 
 .logo {
-  color: #1e252e;
+  color: var(--secondary-color);
   font-size: 3rem;
 }
 

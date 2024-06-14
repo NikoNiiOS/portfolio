@@ -9,7 +9,9 @@
     <div class="contact-info-upper-container">
         <div class="contact-info-container">
             <img 
-            src="../assets/img/email.png" 
+            src="../assets/img/email.png"
+            src-light="/src/assets/img/email.png"
+            src-dark="/src/assets/img/email_dark.png"
             alt="Email icon"
             class="icon contact-icon"
             />
@@ -31,9 +33,9 @@
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    background: white;
+    border: var(--btn-border);
+    border-color: var(--container-border);
+    background: var(--primary-color-2);
     margin: 2rem auto;
     padding: 1.5rem;
 }

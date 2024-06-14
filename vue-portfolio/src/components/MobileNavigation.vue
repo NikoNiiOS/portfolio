@@ -21,6 +21,16 @@ function menuHandler() {
             <li><a href="#experience" @click="menuHandler">Experience</a></li>
             <li><a href="#projects" @click="menuHandler">Projects</a></li>
             <li><a href="#contact" @click="menuHandler">Contact</a></li>
+            <li>
+                <img
+                id="modeToggle2"
+                class="icon color-icon"
+                src="../assets/img/light_theme.png" 
+                src-light="/src/assets/img/light_theme.png"
+                src-dark="/src/assets/img/dark_theme.png"
+                alt="Color theme icon"
+                >
+            </li>
         </div>
         </div>
     </nav>
@@ -49,7 +59,7 @@ function menuHandler() {
 .hamburger-icon span{
     width: 100%;
     height: 2px;
-    background-color: #1e252e;
+    background-color: var(--secondary-color);
     transition: all 0.3 ease-in-out;
 }
 
@@ -68,7 +78,7 @@ function menuHandler() {
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: #1e252e;
+    color: var(--secondary-color);
     text-decoration: none;
     transition: all 0.3 ease-in-out;
 }
@@ -103,6 +113,13 @@ function menuHandler() {
 
 .hamburger-icon span:first-child {
     transform: none;
+}
+
+nav li:last-child {
+    width: max-content;
+    display: flex;
+    margin: auto;
+    padding: 10px;
 }
 
 .logo {
